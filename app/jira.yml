@@ -35,7 +35,7 @@ settings:
     browse_boards: 1
     standalone_extension: 5 # By default disabled
     # Custom dataset section.
-    custom_dataset_query: "summary ~ 'AppIssue*'"
+    custom_dataset_query: "summary ~ 'testing*'"
 services:
   - module: shellexec
     prepare:
